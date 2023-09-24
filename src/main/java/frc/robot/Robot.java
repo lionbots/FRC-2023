@@ -35,6 +35,8 @@ public class Robot extends TimedRobot {
    * This function is run when the robot is first started up and should be used for any
    * initialization code.
    */
+//encoder set up
+
   //SparkMax for CANId: 1
   private final CANSparkMax grab1 = new CANSparkMax(1, MotorType.kBrushless);
   //SparkMax for CANId: 2
